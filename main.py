@@ -12,3 +12,5 @@ def runAgain(c):
     subprocess.call(["bash", "-c", "source ~/.profile; " + c])  
 
 runAgain('python main.py')
+
+exit()
