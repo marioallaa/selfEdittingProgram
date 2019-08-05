@@ -3,7 +3,7 @@
 with open("main.py", "r") as f:
      old = f.read()
      f.seek(0) 
-     f.write(" \n \nprint('Hello {} "+" World'.format({0})) \n\n".format(4)  + old ) 
+     f.write(" \n \nprint('hello from a new line')"  + old ) 
  
  
 import subprocess  
