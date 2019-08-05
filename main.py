@@ -1,6 +1,6 @@
 
 
-with open("main.py", "r+") as f:
+with open("main.py", "r") as f:
      old = f.read()
      f.seek(0) 
      f.write(" \n \nprint('Hello {} "+" World'.format({0})) \n\n".format(4)  + old ) 
